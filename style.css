@@ -1,0 +1,88 @@
+/* inconsolata-300 - latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/inconsolata-v21-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/inconsolata-v21-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/inconsolata-v21-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/inconsolata-v21-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('fonts/inconsolata-v21-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/inconsolata-v21-latin-300.svg#Inconsolata') format('svg'); /* Legacy iOS */
+}
+/* inconsolata-800 - latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: bold;
+  font-weight: 800;
+  src: url('fonts/inconsolata-v21-latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/inconsolata-v21-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/inconsolata-v21-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/inconsolata-v21-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('fonts/inconsolata-v21-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/inconsolata-v21-latin-800.svg#Inconsolata') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+font-family: Inconsolata, sans-serif;
+margin-top: 10%;
+
+}
+
+button, input {
+  font-family: Inconsolata, sans-serif;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+.introduction {
+  text-align:center;
+  margin: 0 auto;
+}
+
+#theSquare {
+  background-color: #7C83FD;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 10px;
+}
+
+#length {
+  text-align: center;
+}
+
+#pixelForm {
+  margin-top: 50px;
+}
+
+
+
+#output {
+  text-align: center;
+}
+
+#newBar {
+  display: none;
+}
+
+#guessField {
+  width: 50px;
+}
+
+.formInput {
+  display: block;
+  margin: 10px auto;
+  text-align:center;
+}
+
+#hint {
+  margin-top: 50px;
+  text-align: center;
+}

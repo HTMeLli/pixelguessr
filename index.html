@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>pixel guessr</title>
+
+</head>
+
+<body>
+<div class="introduction">
+<h1>pixel guessr</h1>
+<h3>guess the pixel width of the blue bar.</h3>
+<p id="points"></p>
+
+</div>
+
+<div id="theSquare"></div>
+<p id="length"></p>
+<p id="output"></p>
+
+<div id="pixelForm">
+<div class="formInput"><input type="text" id="guessField"></input><span> px</span></div>
+<button type="button" id="submitGuess" onclick="getInputValue();" class="formInput">submit</button>
+</div>
+
+<button type="button" id="newBar" onclick="getNewBar();" class="formInput">try again</button>
+
+<p id="hint"></p>
+<button type="button" id="getHintBtn" onclick="getHint();" class="formInput">get a hint</button>
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
