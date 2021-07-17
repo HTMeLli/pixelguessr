@@ -70,4 +70,4 @@ function updatePoints(pointDifference) {
 
 getNewBar();
 
-console.log(pointCount);
+console.log("dear nerd. i know you are here to check the width of the div. why don't you just enjoy the game without cheating? ;-) ");
